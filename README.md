@@ -26,3 +26,6 @@ From another terminal window:
 
 ### [SPACESHIP](https://twitter.com/m2mpd/status/1229624165700796421)
 ![image](https://user-images.githubusercontent.com/29726020/115242710-1e75d000-a15d-11eb-8225-95edc219e19e.png)
+
+### Completed!
+![image](https://odyssey.apollographql.com/static/cat-4c1b4531d213504a9e5cc28aba606502.gif)
