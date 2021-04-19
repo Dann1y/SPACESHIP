@@ -2,20 +2,23 @@ const { gql } = require("apollo-server");
 
 const typeDefs = gql`
   type Query {
-    spaceCats: [SpaceCat]
+    "Get tracks array for homepage grid"
+    tracksForHome: [Track!]!
   }
 
-  type SpaceCat {
+  type Track {
     id: ID!
-    name: String!
-    age: Int
-    missions: [Mission]
+    title: String!
+    author: Author!
+    thumbnail: String
+    length: Int
+    modulesCount: Int
   }
 
-  type Mission {
+  type Author {
     id: ID!
     name: String!
-    description: String!
+    photo: String
   }
 `;
 
